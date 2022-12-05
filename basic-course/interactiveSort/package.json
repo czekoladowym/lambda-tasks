@@ -1,0 +1,20 @@
+{
+  "name": "cli-interface-lambda",
+  "version": "1.0.0",
+  "description": "Cli: Interactive sort for Lambda",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czekoladowym/lambda-tasks.git"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czekoladowym/lambda-tasks/issues"
+  },
+  "homepage": "https://github.com/czekoladowym/lambda-tasks#readme"
+}
