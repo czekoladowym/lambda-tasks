@@ -1,0 +1,87 @@
+ul {
+  user-select: none;
+  margin: 0;
+  padding: 12px 0px;
+  background-color: #fff;
+  width: 343px;
+  /* height: 90px; */
+  line-height: 2.29;
+  border-radius: 8px;
+  box-shadow: 0 15px 66px #0000000a;
+  border: solid 1px #eeeeee;
+}
+li {
+  padding: 0 20px;
+  list-style: none;
+  z-index: 2;
+  height: 32px;
+  cursor: pointer;
+  color: #1b2235;
+}
+li:hover {
+  background-color: #a0a1a438;
+}
+.closed {
+  display: none;
+}
+.open {
+  display: block;
+}
+
+.selector {
+  width: 345px;
+  height: 60px;
+  line-height: 22px;
+  display: flex;
+  padding: 19px 20px;
+  top: -8px;
+  border-radius: 8px;
+  border: solid 1px #eeeeee;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a0a1a4;
+  background-color: inherit;
+  appearance: none;
+  position: relative;
+}
+.selector:focus {
+  border-color: #0068e4;
+}
+.input {
+  padding: 19px 20px;
+  width: 100%;
+  user-select: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.selectContent {
+  top: 10px;
+  width: 343px;
+  /* height: 90px; */
+  top: 70px;
+  right: 0px;
+  position: absolute;
+  z-index: 2;
+}
+.openedInput {
+  color: #1b2235 !important;
+}
+.selectorLanguage {
+  width: 345px;
+  height: 60px;
+  line-height: 22px;
+  display: flex;
+  padding: 19px 20px;
+  top: 0px;
+  border-radius: 8px;
+  border: solid 1px #eeeeee;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a0a1a4;
+  background-color: inherit;
+  appearance: none;
+  position: relative;
+}
