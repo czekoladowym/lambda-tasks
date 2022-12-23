@@ -1,3 +1,6 @@
+// tg bot link: "https://t.me/ConsoleSenderLambdaBot"
+//tg bot nickname: @ConsoleSenderLambdaBot
+
 const { Command } = require("commander");
 const fs = require("fs");
 
