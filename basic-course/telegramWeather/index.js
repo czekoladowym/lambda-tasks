@@ -1,3 +1,6 @@
+// tg bot link: "https://t.me/WeatherForecastTgBot"
+//tg bot nickname: @WeatherForecastTgBot
+
 const TgBot = require("node-telegram-bot-api");
 const axios = require("axios");
 
