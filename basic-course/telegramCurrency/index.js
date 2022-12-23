@@ -1,3 +1,6 @@
+// tg bot link: "https://t.me/ConverterAndForecastBot"
+//tg bot nickname: @ConverterAndForecastBot
+
 const TgBot = require("node-telegram-bot-api");
 const currency = require("./currency");
 const forecast = require("./forecast");
