@@ -1,3 +1,6 @@
+// tg bot link: "https://t.me/EchoConsoleBot"
+//tg bot nickname: @EchoConsoleBot
+
 const TgBot = require("node-telegram-bot-api");
 const axios = require("axios");
 
